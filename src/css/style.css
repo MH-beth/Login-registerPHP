@@ -1,0 +1,27 @@
+body{
+    background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(https://www.sciencesetavenir.fr/assets/img/2020/03/11/cover-r4x3w1000-5e68cd6487ca8-sipa-51307399-000001.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.login-box{
+    max-width:700px;
+    float:none;
+    text-align:center;
+    margin:150px auto;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+.login-left{
+    background:rgba(0, 110, 255, 0.5);
+    padding:30px;
+    border-radius : 5px;
+}
+.login-right{
+    background:rgba(0, 140, 255, 0.61);
+    padding:30px;
+    border-radius : 5px ;
+}
+.form-control{
+    background-color:transparent !important;
+}
