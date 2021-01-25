@@ -39,6 +39,18 @@
                         <label for="password">Password</label>
                         <input type="password" style='color:#fff;' name='password' class='form-control' required>
                     </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" style='color:#fff;' name='email' class='form-control' required>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" style='color:#fff;' name='fname' class='form-control' required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">lastname</label>
+                        <input type="text" style='color:#fff;' name='lname' class='form-control' required>
+                    </div>
                     <button type='submit' class='btn btn-primary'>Register</button>
                     
                 </form>

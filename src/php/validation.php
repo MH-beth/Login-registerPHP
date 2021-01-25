@@ -16,6 +16,9 @@ $result = mysqli_query($con, $s);
 $num = mysqli_num_rows($result);
 
 if($num == 1){
+    $d = " select firstname from usertable where name='$name'";
+    $result2 = mysqli_query($con, $d);
+    $_SESSION['firstname'] = $result2;
     $_SESSION['username'] = $name;
     header('location:home.php');
 }else{
