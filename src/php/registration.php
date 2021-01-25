@@ -18,7 +18,6 @@ $s = " select * from usertable where name = '$name'";
 $d = " select * from usertable where email = '$email'";
 $result = mysqli_query($con, $s);
 $result2 = mysqli_query($con, $d);
-
 $num = mysqli_num_rows($result);
 $num2 = mysqli_num_rows($result2);
 
